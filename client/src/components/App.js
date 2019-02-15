@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowerRouter, Route} from 'react-router-dom'
+import {BrowserRouter, Route} from 'react-router-dom'
 
 const PageOne = () => {
   return (
@@ -17,12 +17,12 @@ const PageTwo = () => {
 const App = () => {
   return (
   <div>
-    <BrowerRouter>
+    <BrowserRouter>
       <div>
       <Route path="/" exact component={PageOne}/>
-      <Route path="/pagetwp"  component={PageTwo}/>
+      <Route path="/pagetwo"  component={PageTwo}/>
       </div>
-    </BrowerRouter>
+    </BrowserRouter>
   </div>
   )
 }
