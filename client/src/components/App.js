@@ -1,16 +1,17 @@
 import React from 'react'
-import {BrowserRouter, Route} from 'react-router-dom'
+import {BrowserRouter, Route, Link } from 'react-router-dom'
 
 const PageOne = () => {
   return (
-    <div>page one</div>
+    <Link to="pagetwo"> Navigate to page two </Link>
   )
 }
 
 const PageTwo = () => {
    return (
-     <div>page two
+     <div>
        <button>click me</button>
+       <Link to='/'> navigate to home</Link>
      </div>
    )
 }
