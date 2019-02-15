@@ -9,7 +9,9 @@ const PageOne = () => {
 
 const PageTwo = () => {
    return (
-     <div>page two</div>
+     <div>page two
+       <button>click me</button>
+     </div>
    )
 }
 
