@@ -2,10 +2,12 @@ import React from 'react'
 
 
 
-const Streamlist = () => {
+const StreamList = () => {
   return ( 
   <div>
     stream list 
   </div>
   )
 }
+
+export default StreamList;
