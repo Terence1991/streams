@@ -7,7 +7,7 @@ const Header = () => {
     <div>
       <Link to='/'>Steams</Link>
       <div>  
-      <Link to='/'>ALL Streams</Link>\
+      <Link to='/'>ALL Streams</Link>
       <GoogleAuth/>
       </div>
     </div>
